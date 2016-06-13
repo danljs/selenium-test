@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "selenium-webdriver": "^2.48.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.11.1"
+  }
+}
