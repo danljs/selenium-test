@@ -10,7 +10,7 @@ var webdriver = require('selenium-webdriver'),
 
 var browser = new webdriver.Builder().usingServer().withCapabilities({'browserName': 'chrome' }).build();
 
-var url = 'https://www.google.com/webmasters/tools/crawl-errors?hl=en&siteUrl=http://eieihome.com/#t2=1';
+var url = 'https://www.google.com/webmasters/tools/crawl-errors?hl=en&siteUrl=http://xxxx.com/#t2=1';
 function logTitle() {
 	browser.getTitle().then(function(title) {
 		console.log('Current Page Title: ' + title);
